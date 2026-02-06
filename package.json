@@ -1,0 +1,19 @@
+{
+  "name": "nova-xmd-pair-site",
+  "version": "1.0.0",
+  "description": "NOVA XMD Pairing site + multi-session bot (Render-ready)",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "express": "^4.19.2",
+    "moment-timezone": "^0.5.45",
+    "pino": "^10.1.0"
+  }
+}
